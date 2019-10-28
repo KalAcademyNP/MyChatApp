@@ -63,7 +63,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s/XaKJ1/sNYi45Rk1VESDaIcCWs=
+		mb45kuSIecb11p8YvXcAWBy4Eb4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -75,19 +75,19 @@
 		</data>
 		<key>PlugIns/MyChatAppTests.xctest.dSYM/Contents/Resources/DWARF/MyChatAppTests</key>
 		<data>
-		czxKMQwYa4oCJfY5FxeERL+W8aU=
+		7nuluBlZQILvW4dJg2mf4ktfI3U=
 		</data>
 		<key>PlugIns/MyChatAppTests.xctest/Info.plist</key>
 		<data>
-		nm2Z+gljTtV9wjBs6tpkUhtZ0Ec=
+		pqCo24ECZaQr1Qr97a9GS+dKLdk=
 		</data>
 		<key>PlugIns/MyChatAppTests.xctest/MyChatAppTests</key>
 		<data>
-		fHy1WbGXQZjfqlGSte0BvLh7E2k=
+		OIx77nCAwpVH7CNPj+yV5H6gjKI=
 		</data>
 		<key>PlugIns/MyChatAppTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		bnrdwXrl7j3JYTijoyanYideDFY=
+		dEBXp5kKeNXcUmQXQW3RGo+8xy8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -252,44 +252,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			czxKMQwYa4oCJfY5FxeERL+W8aU=
+			7nuluBlZQILvW4dJg2mf4ktfI3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			RVNR0uoBAhsKGtOIqg7MDGrKSvGE31CTeFSWZnsT+X0=
+			6n8c6P2S454fatC99xxiov92J3Gp/x0vMyMCY3y1Uik=
 			</data>
 		</dict>
 		<key>PlugIns/MyChatAppTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nm2Z+gljTtV9wjBs6tpkUhtZ0Ec=
+			pqCo24ECZaQr1Qr97a9GS+dKLdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			QL5jQVzmQCvTq6Lll5QaBxXwZ+7av0XkI2vg/PWFk8I=
+			hh/8SRMamZT9BlukweBZJHlzqTXE70K69lUdN6vVh5w=
 			</data>
 		</dict>
 		<key>PlugIns/MyChatAppTests.xctest/MyChatAppTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fHy1WbGXQZjfqlGSte0BvLh7E2k=
+			OIx77nCAwpVH7CNPj+yV5H6gjKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			MWq1HWR9i55IkLfwAxp2Nq8QD62adMKxq5VmXQpmbNw=
+			Nno71q+Za9E5JNT15ICWT9YqDdLaMsb2Ha6ZYoz5p1k=
 			</data>
 		</dict>
 		<key>PlugIns/MyChatAppTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bnrdwXrl7j3JYTijoyanYideDFY=
+			dEBXp5kKeNXcUmQXQW3RGo+8xy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nduK8upplf5QSKFDO9BTlsHNZxfCCZMSM8gGoaz6deM=
+			fbrOn4eW3ifY3DdhnU/tNtGyS9Wg/OXbeqDD5gu2/iw=
 			</data>
 		</dict>
 	</dict>

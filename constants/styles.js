@@ -16,6 +16,9 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     borderRadius: 5,
   },
+  button:{
+    marginBottom: 50,
+  }
 });
 
 export default styles;

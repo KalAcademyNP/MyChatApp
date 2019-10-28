@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2548B2A4-3479-4D51-92AE-96794323EF21</key>
+		<key>D93366F2-5003-4270-A70A-6C9C5FBB89DF</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2548B2A4-3479-4D51-92AE-96794323EF21.xcactivitylog</string>
+			<string>D93366F2-5003-4270-A70A-6C9C5FBB89DF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,47 +32,13 @@
 			<key>signature</key>
 			<string>Building workspace MyChatApp with scheme MyChatApp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>593292438.29758596</real>
+			<real>593897025.39964998</real>
 			<key>timeStoppedRecording</key>
-			<real>593292439.41838002</real>
+			<real>593897027.78427601</real>
 			<key>title</key>
 			<string>Building workspace MyChatApp with scheme MyChatApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>2548B2A4-3479-4D51-92AE-96794323EF21</string>
-		</dict>
-		<key>DBFA04D3-AD42-4994-91BB-50BC5D351977</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DBFA04D3-AD42-4994-91BB-50BC5D351977.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>MyChatApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>MyChatApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace MyChatApp with scheme MyChatApp and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>593324613.96112502</real>
-			<key>timeStoppedRecording</key>
-			<real>593324615.133461</real>
-			<key>title</key>
-			<string>Building workspace MyChatApp with scheme MyChatApp and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>DBFA04D3-AD42-4994-91BB-50BC5D351977</string>
+			<string>D93366F2-5003-4270-A70A-6C9C5FBB89DF</string>
 		</dict>
 	</dict>
 </dict>

@@ -1,4 +1,28 @@
+
+
+# Gradle
+ios/build/
+android/.gradle/
+
+
+# Android
+.idea
+.gradle
+local.properties
+*.iml
+/android/
+
+# Node
+node_modules
+*.log
+.nvm
+/bots/node_modules/
+package-lock.json
+
+
+
 /node_modules
 /constants/firebaseconfig.js
-/android/
-/ios/
+android/*
+ios/*
+

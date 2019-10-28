@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import User from '../User';
 import styles from '../constants/styles';
+import firebase from 'firebase';
 
 class LoginScreen extends Component {
   static navigationOptions = {
@@ -39,6 +40,14 @@ class LoginScreen extends Component {
     } else {
       await AsyncStorage.setItem('userPhone', this.state.phone);
       User.phone = this.state.phone;
+      //Write to firebase
+      firebase
+        .database()
+        .ref('users/' + User.phone)
+        .set({
+          name: this.state.name,
+        });
+
       this.props.navigation.navigate('App');
     }
   };
@@ -65,6 +74,5 @@ class LoginScreen extends Component {
     );
   }
 }
-
 
 export default LoginScreen;
