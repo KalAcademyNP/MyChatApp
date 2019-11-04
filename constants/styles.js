@@ -12,13 +12,22 @@ const styles = StyleSheet.create({
     padding: 10,
     borderWidth: 1,
     borderColor: '#CCC',
-    width: '90%',
+    width: '80%',
     marginBottom: 5,
     borderRadius: 5,
   },
-  button:{
+  btnText: {
+    color: 'darkblue',
+    fontSize: 20,
+  },
+  button: {
     marginBottom: 50,
-  }
+  },
+  userContainer: {
+    padding: 10,
+    borderBottomColor: '#ccc',
+    borderBottomWidth: 1,
+  },
 });
 
 export default styles;

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-  View,
+  SafeAreaView,
   Text,
   TouchableOpacity,
   FlatList,
@@ -38,18 +38,21 @@ export default class HomeScreen extends Component {
   };
 
   renderRow = ({item}) => {
-    return (
-      <TouchableOpacity>
-        <Text>{item.name}</Text>
-      </TouchableOpacity>
-    );
+    if (item.phone !== User.phone) {
+      return (
+        <TouchableOpacity
+          style={styles.userContainer}
+          onPress={() => this.props.navigation.navigate('Chat', item)}>
+          <Text style={{fontsize: 20}}>{item.name}</Text>
+        </TouchableOpacity>
+      );
+    }
   };
 
   render() {
     return (
-      <View style={styles.container}>
-
-                <FlatList
+      <SafeAreaView style={styles.container}>
+        <FlatList
           data={this.state.users}
           renderItem={this.renderRow}
           keyExtractor={item => item.phone}
@@ -57,7 +60,7 @@ export default class HomeScreen extends Component {
         <TouchableOpacity onPress={this._logout} style={styles.button}>
           <Text>Logout</Text>
         </TouchableOpacity>
-      </View>
+      </SafeAreaView>
     );
   }
 }
