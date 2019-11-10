@@ -53,7 +53,10 @@ export default class ChatScreen extends React.Component {
       updates[
         'messages/' + this.state.person.phone + '/' + User.phone + '/' + msgId
       ] = message;
-      firebase.database.ref().update(updates);
+      firebase
+        .database()
+        .ref()
+        .update(updates);
       this.setState({textMessage: ''});
     }
   };
