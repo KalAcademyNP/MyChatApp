@@ -5,14 +5,25 @@ import {
   TouchableOpacity,
   FlatList,
   AsyncStorage,
+  Image,
 } from 'react-native';
 import User from '../User';
 import styles from '../constants/styles';
 import firebase from 'firebase';
 
 export default class HomeScreen extends Component {
-  static navigationOptions = {
-    title: 'Chats',
+  static navigationOptions = ({navigation}) => {
+    return {
+      title: 'Chats',
+      headerRight: (
+        <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
+          <Image
+            source={require('../images/user.png')}
+            style={{width: 32, height: 32, marginRight: 7}}
+          />
+        </TouchableOpacity>
+      ),
+    };
   };
 
   state = {
@@ -24,11 +35,15 @@ export default class HomeScreen extends Component {
     dbRef.on('child_added', newUser => {
       let person = newUser.val();
       person.phone = newUser.key;
-      this.setState(prevState => {
-        return {
-          users: [...prevState.users, person],
-        };
-      });
+      if (person.phone === User.phone) {
+        User.name = person.name;
+      } else {
+        this.setState(prevState => {
+          return {
+            users: [...prevState.users, person],
+          };
+        });
+      }
     });
   }
 
